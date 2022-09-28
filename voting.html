@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Vote landing page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href ="newcss.css">
+    </head>
+    <body>
+        <div class ="sidebar">
+            
+            <a href="voting-history.html">History of technology in voting</a>
+            <a href="election-security.html">Election security</a>
+            <a href="voting.html">Voting page</a>
+            <a href="index.html">Home</a>
+            <a href="register.html">Register</a>
+        </div>
+        <div>
+            <h1>Cast your vote</h1>
+            <p>Please review your choices below. You can vote for one candidate for each position.</p>
+            <p>If you need further information about each candidate, there are links below to information for each one.</p>
+  <table border="3">
+  <thead>Official Ballot - General Election November 3, 2020
+      </thead>
+  <tbody>
+  <form action="action">
+    <tr>
+      <th>OFFICES</th>
+      <th>PRESIDENT</th>
+      <th>SENATOR</th>
+      <th>REPRESENTATIVE</th>
+    </tr>
+    <tr>
+      <th>DEMOCRATIC</th>
+      <th><input type="radio" value="biden" name = "president" id="biden" />BIDEN</th>
+      <th><input type="radio" value="booker" name = "senator" id="booker" />BOOKER</th>
+      <th><input type="radio" value="sires" name = "representative" id="sires" />SIRES</th>
+      
+    </tr>
+    <tr>
+      <th>REPUBLICAN</th>
+      <th><input type="radio" value="trump" name = "president" id="trump" />TRUMP</th>
+      <th><input type="radio" value="mehta" name = "senator" id="mehta" />MEHTA</th>
+      <th><input type="radio" value="mushnick" name = "representative" id="mushnick" />MUSHNICK</th>
+    </tr>
+    <td>
+        <p><input type="submit" name="submit" value="submit"><br>
+    <input type="button" value="clear selection" id="clear-button">
+    </td>
+    </p>
+    </form>
+  </tbody>
+  
+</table>
+            
+            <div id = "candidate_links">
+                <h3>Candidate links</h3><!-- comment -->
+                <ul>
+                    <li><a href="https://en.wikipedia.org/wiki/Joe_Biden">Joe Biden</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Cory_Booker">Cory Booker</a></li><!-- comment -->
+                    <li><a href="https://rikfornj.com/">Rik Mehta</a></li><!-- comment -->
+                    <li><a href="https://ballotpedia.org/Jason_Mushnick">Jason Mushnick</a></li><!-- comment -->
+                    <li><a href="https://sires.house.gov/">Albio Sires</a></li><!-- comment -->
+                    <li><a href="https://en.wikipedia.org/wiki/Donald_Trump">Donald Trump</a></li><!-- comment -->
+                    
+                </ul>
+            </div>
+        </div>
+        
+    </body>
+</html>

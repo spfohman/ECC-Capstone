@@ -1,0 +1,55 @@
+
+/* 
+    Created on : Feb 12, 2021, 10:19:21 AM
+    Author     : sarah
+*/
+body{
+    text-align: center;
+    margin-left: 200px;
+    padding: 20px;
+    background-color:gainsboro;
+}
+h1{
+    text-align: center;
+}
+img{
+    border-radius: 10px;
+}
+figcaption{
+    font-weight: bold;
+}
+#footer{
+    text-align: left;
+}
+#candidate_links{
+    text-align: left;
+}
+.sidebar{
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    background-color: darkslategray;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.sidebar a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: antiquewhite;
+    display: block;
+}
+.sidebar a:hover{
+    color: black;
+}
+.register{
+    box-sizing: border-box;
+    width:100%;
+    margin-top:6px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    text-justify: auto;
+}

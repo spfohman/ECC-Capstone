@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Election Security</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href ="newcss.css">
+    </head>
+    <body>
+        <div class ="sidebar">
+            
+            <a href="voting-history.html">History of technology in voting</a>
+            <a href="election-security.html">Election security</a>
+            <a href="voting.html">Voting page</a>
+            <a href="index.html">Home</a>
+            <a href="register.html">Register</a>
+        </div>
+        <h1>Election Security</h1>
+        <div id="content">
+            <p>For the past 40 years, according to website <a href="https://www.heritage.org/voterfraud">heritage.org</a>, there have been only 1,311 instances of voter fraud. Only a few of these involved multiple people. 
+                A large majority were individual actors committing fraud in mostly local elections. </p>
+            <p>In our most current election, the allegations of voter fraud are unfounded, and in some cases impossible. All current electronic voting systems are used in an “offline” capacity. 
+                They use a peer-to-peer connection, and transfer data in many cases via a memory card rather than via an internet connection.</p>
+            <p>With the Diebold system that was used through the 2000 election there were at least two major types of viable attacks or threats. The first would be a voting machine virus. Due to the way the machines are configured, 
+                each machine is not connected to the internet so the treats would be isolated to each county if it occurred. A threat actor would need to get a hold of the memory cards used in the machines. 
+                They would then insert a virus into the memory card which would then be installed in the voting machines at the polling site. This could not be done remotely. The person would need direct physical access to the memory cards and voting machines. </p>
+            <p>The second major type of threat would be a virus payload attack. This would essentially be a large-scale DoS attack. The person would reprogram the machines to steal votes, how to steal them, and when to attack. 
+                Machines that coordinate with a paper trail make this harder. Depending on the type of programing used in the machines could make this type of threat more difficult to execute. The original machines in the 2000s used C or C++. 
+                Currently they are using C# or Java which are less susceptible to buffer overflow, format string vulnerabilities, and integer overflows.</p>
+            <p>One of the most major security weaknesses in the Diebold organization from 2000 is that they had no formal threat model or security training. There was also a weak source code review process and no “red-team” testing on code to simulate attacks or break ins. </p>
+            <p>Technology that could possibly be used going forward to make internet voting a possibility would be the addition of blockchain and biometrics for voter identification. 
+                The blockchain could be implementable. The use of something like facial recognition may only be possible if the voter has access to a device, such as a camera in their computer, or a smart phone with a camera. </p>
+            
+        </div>
+        
+    </body>
+</html>
